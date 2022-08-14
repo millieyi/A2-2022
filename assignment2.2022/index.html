@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project 14</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+       <button data-btn>click me</button>
+       <button onclick="anotherButtonClicked()">click me too</button>
+       <input type="color" onchange="pickColor()" id="color-picker">
+       <hr>
+       <label>type something in here:
+          <input type="text" data-input>
+       </label>
+       <button onclick="dataEntered()">submit</button>
+       <h1 data-text></h1>
+       <hr>
+       <input type="text" id="input" onkeyup="somethingTyped()">
+       <span id="text"></span>
+      <hr>
+
+      <input type="text" data-thing>
+      <button onclick="formSubmitted()">submit</button>
+       <ul data-list></ul>
+       <hr>
+       <figure id="album"></figure>
+
+    </div>
+  </body>
+</html>
